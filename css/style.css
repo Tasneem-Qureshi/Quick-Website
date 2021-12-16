@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+h1,h2 ,h3 ,h4 ,h5, h6 ,p ,a, span, Button{
+	font-family: 'Open Sans', sans-serif;
+}
+a{text-decoration: none;}
+/*font-family: 'Open Sans', sans-serif;*/
+header{
+	width: 100%;
+	padding: 5px 0px;
+	border-bottom: .1px solid #edeff2;	
+}
+.logo img{
+	width: 100%;
+	height: 0 auto;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar ul li a{
+	color: #14285e;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 20px;
+}
+.navbar{
+	margin:15px;
+}
+.menu ul{
+	margin-top: 20px;
+}
+/*footer section css starts here*/
+footer .start{
+	margin: 100px 0px;
+}
+.footer1 h1{
+	color: #102354;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 40px;
+}
+.footer1 p{
+	color: #124473;
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 70px;
+}
+.footer1 span{
+	color: #0083f9;
+}
+.footer1{
+	text-align: center;
+}
+.footer1 img{
+	height: 100%;
+	margin: 0 auto;
+}
+.footer1{
+	margin: 100px;
+}
+/*footer section css ends here*/
+/*text section css starts here*/
+.text-section{
+	margin-left:170px;
+	margin-bottom: 100px;
+}
+.content{
+	display: flex;
+}
+.left-text{
+	text-align: right;
+	margin-right: 20px;
+}
+.left-text h1{
+	color: #fd5b69;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.left-text p{
+	color: #102354;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 300;
+
+}
+.right-text h1{
+	color: #102354;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+/*text section css ends here*/
+/*projects section starts here*/
+.project-section{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+}
+.item1{
+	background: #ffebed;
+	margin: 20px;
+	padding: 30px;
+	transition: 0.5s;
+	border-radius: 9px;
+}
+.item2{
+	background: #e9f9f4;
+	margin: 20px;
+	padding: 30px;
+	transition: 0.5s;
+	border-radius: 9px;
+}
+.item3{
+	background: #fff8e9;
+	margin: 20px;
+	padding: 30px;
+	transition: 0.5s;
+	border-radius: 9px;
+}
+.item1 h5,.item2 h5,.item3 h5{
+	color: #102151;
+	text-align: left;
+	margin: 20px 0px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.item1 p,.item2 p,.item3 p{
+	color: #102151;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+/*projects section ends here*/
+/*footer section starts here*/
+.end{
+	margin-top: 100px ;
+}
+.footer-{
+	background-color: #0083f9;
+	padding: 20px;
+	text-align: center;
+}
+.footer- p{
+	color: white;
+	font-weight: 300;
+}
+.footer- a{
+	color: white;
+	font-weight: bold;
+}
+
+/*footer section ends here*/
